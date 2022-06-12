@@ -1,0 +1,79 @@
+body {
+    background: rgb(3, 29, 86);
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    background: white;
+    border-radius: 10px 100px;
+    width: 640px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+div {
+    margin: auto;
+    padding: 5px;
+    margin: 10px;
+    font-size:18px;
+}
+#div3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#button1 {
+    position: relative;
+    left: 35%;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(45, 93, 252);
+    border-radius: 200px;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+
+#button2 {
+    position: relative;
+    left: 38%;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(252, 47, 47);
+    border-radius: 200px;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+
+#button1:hover {
+    font-size: 22px;
+    border-color: white;
+}
+
+#button2:hover {
+    font-size: 22px;
+    border-color: white;
+}
+
+#button1:active {
+    color: rgba(188, 188, 187, 0.737);
+    border-color: rgba(188, 188, 187, 0.737);
+    background: rgb(15, 34, 97);
+}
+
+#button2:active {
+    color: rgba(188, 188, 187, 0.737);
+    border-color: rgba(188, 188, 187, 0.737);
+    background: rgb(124, 24, 24);
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
