@@ -1,0 +1,79 @@
+body {
+    background-image: url(footer.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    height: 100px;
+    
+}
+
+
+main {
+    position: relative;
+    background: white;
+    border-radius: 10px 100px;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+
+.logo {
+    height: 75px;
+    width: 210px;
+    padding: 10px;
+}
+
+ h1{
+    margin: 10px auto;
+ }
+
+
+section {
+    text-align: center;
+}
+div {
+    margin: auto;
+    padding: 5px;
+    margin: 10px;
+    font-size:18px;
+    text-align: center;
+}
+#div3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#button {
+    margin: 0 5px;
+    border-radius: 200px;
+    border-color: rgb(3, 29, 86);
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:rgb(3, 29, 86);
+    cursor: pointer;
+}
+
+#button:hover {
+    background: rgb(117, 115, 115);
+    font-size: 26px;
+    color: white;
+}
+
+#button:active {
+    color: white;
+    border-color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

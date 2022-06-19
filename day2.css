@@ -1,35 +1,82 @@
 body {
-    background: rgb(3, 29, 86);
+    background-image: url(footer.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
     color: white;
     text-align: center;
+    height: 100px;
+    
 }
 
-section {
+
+main {
     position: relative;
     background: white;
     border-radius: 10px 100px;
-    width: 640px;
+    width: 700px;
     padding: 10px;
     margin: auto;
     box-shadow: 5px 5px 10px black;
+    
 }
+
+.logo {
+    height: 75px;
+    width: 210px;
+    padding: 10px;
+}
+
+ h1{
+    margin: 10px auto;
+    text-align: center;
+ }
+
+ .boxtext{
+    padding: 3px;
+    border-color: rgb(42, 42, 145);
+    text-align: center;
+ }
+
+ #idade{
+    width: 95px;
+    
+ }
+
+ #enviar {
+    position: relative;
+    left: 45%;
+    padding: 5px;
+    background: none;
+    color: rgb(42, 42, 145);
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ #enviar:hover {
+    font-size: 20px;
+ }
+
+
 div {
     margin: auto;
     padding: 5px;
     margin: 10px;
     font-size:18px;
+    text-align: center;
 }
-#div3 {
+#div2 {
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
 #button1 {
     position: relative;
-    left: 35%;
+    left: -3%;
     margin: 5px;
     padding: 20px;
     color: white;
@@ -41,7 +88,7 @@ div {
 
 #button2 {
     position: relative;
-    left: 38%;
+    left: 1%;
     margin: 5px;
     padding: 20px;
     color: white;
