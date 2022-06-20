@@ -1,0 +1,127 @@
+body {
+    background-image: url(footer.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header {
+    color: white;
+    text-align: center;
+    height: 100px;
+    
+}
+
+.logo {
+    height: 75px;
+    width: 210px;
+    padding: 10px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+
+main {
+    position: relative;
+    background: white;
+    border-radius: 10px 100px;
+    width: 640px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+section {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    margin: 10px;
+}
+div {
+    margin: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size:18px;
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+}
+
+select {
+    margin: 10px 0;
+    padding: 3px;
+}
+
+#step {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(3, 29, 86);
+}
+
+#step:hover {
+    font-size: 22px;
+}
+
+.opcoes {
+    display:flexbox;
+    
+    margin: 5px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.opcoes:hover {
+    font-size: 18px;
+}
+
+#button {
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(3, 29, 86);
+    box-shadow: 5px 5px 10px black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#button:hover {
+    font-size: 20px;
+    border-color: aliceblue;
+}
+
+.b1 {
+    background: radial-gradient(rgb(244, 49, 49), rgb(101, 48, 48));
+}
+
+.b2 {
+    background: radial-gradient(rgb(2, 128, 245), rgb(48, 78, 101));
+}
+
+#div3 {
+    text-align: right;
+    font-weight: bold;
+}
+
+#div3:hover {
+    font-size: 22px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
