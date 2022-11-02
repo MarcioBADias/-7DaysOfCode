@@ -1,0 +1,126 @@
+body {
+    background-image: url(footer.jpg);
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    height: 100px;
+    
+}
+
+
+main {
+    position: relative;
+    background: white;
+    border-radius: 10px 100px;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+    
+}
+
+.logo {
+    height: 75px;
+    width: 210px;
+    padding: 10px;
+}
+
+ h1{
+    margin: 10px auto;
+    text-align: center;
+ }
+
+ .boxtext{
+    padding: 3px;
+    border-color: rgb(42, 42, 145);
+    text-align: center;
+ }
+
+ #idade{
+    width: 95px;
+    
+ }
+
+ #enviar {
+    position: relative;
+    left: 45%;
+    padding: 5px;
+    background: none;
+    color: rgb(42, 42, 145);
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+ }
+
+ #enviar:hover {
+    font-size: 20px;
+ }
+
+
+div {
+    margin: auto;
+    padding: 5px;
+    margin: 10px;
+    font-size:18px;
+    text-align: center;
+}
+#div2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+#button1 {
+    position: relative;
+    left: -3%;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(45, 93, 252);
+    border-radius: 200px;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+
+#button2 {
+    position: relative;
+    left: 1%;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(252, 47, 47);
+    border-radius: 200px;
+    border-color: aliceblue;
+    box-shadow: 5px 5px 10px black;
+}
+
+#button1:hover {
+    font-size: 22px;
+    border-color: white;
+}
+
+#button2:hover {
+    font-size: 22px;
+    border-color: white;
+}
+
+#button1:active {
+    color: rgba(188, 188, 187, 0.737);
+    border-color: rgba(188, 188, 187, 0.737);
+    background: rgb(15, 34, 97);
+}
+
+#button2:active {
+    color: rgba(188, 188, 187, 0.737);
+    border-color: rgba(188, 188, 187, 0.737);
+    background: rgb(124, 24, 24);
+}
+
+footer {
+    color: white;
+    text-align: center;
+}

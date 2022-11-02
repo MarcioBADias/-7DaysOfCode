@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#5 7 Days of Code</title>
+    <link rel="stylesheet" href="day5.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <img class="logo" src="7dayslogowhite.png" alt="">
+    </header>
+    <main>
+        <h1>#5 Day: Lista de compras</h1>
+        <section>
+            <h2>Vamos às compras?</h2>
+            <p>Digite abaixo os itens da sua lista de compras:</p>
+            <label for="item">Item da lista:</label>
+            <input type="text" name="item" id="item">
+            </br>
+            <label for="cat">A qual das categorias pertence o item da sua lista?</label>
+            </br>
+            <select name="categoria" id="cat">
+                <option value=""> </option>
+                <option value="bebidas">Bebidas</option>
+                <option value="bobeiras">Bobeiras</option>
+                <option value="congelados">Congelados</option>
+                <option value="hortifrute">Hortifrute</option>
+                <option value="limpeza">Limpeza</option>
+                <option value="mantimentos">Mantimentos</option>
+            </select>
+            </br>
+            <input type="submit" value="Incluir na Lista" class="button" id="enviar" onclick="add()">
+            <br>
+            <br>
+            <select name="lista" id="lista" size="6"><option></option></select>
+        </section>
+        <input type="button" value="Finalizar" id="end" onclick="end()">
+        <div id="res"></div>
+        
+    </main>
+    <footer>
+        <p>&copy; Marcius Code</p>
+    </footer>
+    <script src="day5.js"></script>
+</body>
+</html>
